@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
         [{ id: "MAT329", nombre: "Investigación Operativa I", prereq: ["MAT302"] }, { id: "INF322", nombre: "Base de Datos II", prereq: ["INF312"] }, { id: "INF323", nombre: "Sistemas Operativos I", prereq: ["INF310"] }, { id: "INF323", nombre: "Sistemas de Información I", prereq: ["INF310"] }, { id: "ADM320", nombre: "Finanzas para la Empresa", prereq: ["ADM330"] }
         ],
 7:
-        [{ id: "MAT419", nombre: "Investigación Operativa II", prereq: ["MAT329"] }, { id: "INF413", nombre: "Sistemas de Información II", prereq: ["INF323"] }, { id: "INF432", nombre: "Soporte para la Toma de Decisiones", prereq: ["INF322"] }, { id: "INF413", nombre: "Sistemas Operativos II", prereq: ["INF322", "INF342"] }, { id: "INF433", nombre: "Redes I", prereq: ["INF323"] }
+        [{ id: "MAT419", nombre: "Investigación Operativa II", prereq: ["MAT329"] }, { id: "INF412", nombre: "Sistemas de Información II", prereq: ["INF322", "INF342"] }, { id: "INF432", nombre: "Soporte para la Toma de Decisiones", prereq: ["INF322"] }, { id: "INF413", nombre: "Sistemas Operativos II", prereq: ["INF323"] }, { id: "INF433", nombre: "Redes I", prereq: ["INF323"] }
           ],
 8:
           [{ id: "ECO449", nombre: "Prep. y Eval. de Proyectos", prereq: ["MAT419"] }, { id: "INF423", nombre: "Redes II", prereq: ["INF433"] }, { id: "INF442", nombre: "Sistemas de Información Geográfica", prereq: ["INF412"] }, { id: "INF422", nombre: "Ingeniería de Software I", prereq: ["INF412"] }, { id: "INF462", nombre: "Auditoria Informatica", prereq: ["INF412", "ADM320"]}
