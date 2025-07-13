@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", () => {
         { id: "ADM330", nombre: "Organización y Métodos", prereq: ["ADM200"] },{ id: "ECO300", nombre: "Economía para la gestión", prereq: ["ADM200"] }, { id: "INF312", nombre: "Base de Datos I", prereq: ["INF220"] }, { id: "MAT302", nombre: "Prob. y Estad. II", prereq: ["MAT202"] }, { id: "INF310", nombre: "Estructuras de Datos II", prereq: ["INF220"] }
         ],
 6:
-        [{ id: "MAT329", nombre: "Investigación Operativa I", prereq: ["MAT302"] }, { id: "INF322", nombre: "Base de Datos II", prereq: ["INF312"] }, { id: "INF323", nombre: "Sistemas Operativos I", prereq: ["INF310"] }, { id: "INF323", nombre: "Sistemas de Información I", prereq: ["INF310"] }, { id: "ADM320", nombre: "Finanzas para la Empresa", prereq: ["ADM330"] }
+        [{ id: "MAT329", nombre: "Investigación Operativa I", prereq: ["MAT302"] }, { id: "INF322", nombre: "Base de Datos II", prereq: ["INF312"] }, { id: "INF323", nombre: "Sistemas Operativos I", prereq: ["INF310"] }, { id: "INF342", nombre: "Sistemas de Información I", prereq: ["INF312"] }, { id: "ADM320", nombre: "Finanzas para la Empresa", prereq: ["ADM330"] }
         ],
 7:
         [{ id: "MAT419", nombre: "Investigación Operativa II", prereq: ["MAT329"] }, { id: "INF412", nombre: "Sistemas de Información II", prereq: ["INF322", "INF342"] }, { id: "INF432", nombre: "Soporte para la Toma de Decisiones", prereq: ["INF322"] }, { id: "INF413", nombre: "Sistemas Operativos II", prereq: ["INF323"] }, { id: "INF433", nombre: "Redes I", prereq: ["INF323"] }
